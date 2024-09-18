@@ -14,8 +14,6 @@
     "@typescript-eslint/no-namespace": "off",
     "@typescript-eslint/prefer-nullish-coalescing": "off",
     "no-redeclare": "off",
-    "import/export": "off",
-    "react/jsx-uses-react": "error",
-    "react/jsx-uses-vars": "error"
+    "import/export": "off"
   }
 }
