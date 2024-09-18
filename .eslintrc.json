@@ -13,6 +13,7 @@
     "@typescript-eslint/return-await": "off",
     "@typescript-eslint/no-namespace": "off",
     "@typescript-eslint/prefer-nullish-coalescing": "off",
+    "@typescript-eslint/no-confusing-void-expression": "off",
     "no-redeclare": "off",
     "import/export": "off"
   }
