@@ -1,7 +1,14 @@
 {
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "extends": [
-    "standard-with-typescript"
+    "standard-with-typescript",
+    "plugin:react/recommended"
   ],
+  "plugins": ["react"],
   "parserOptions": {
     "project": "./tsconfig-eslint.json"
   },
@@ -16,6 +23,8 @@
     "@typescript-eslint/no-confusing-void-expression": "off",
     "@typescript-eslint/unbound-method": "off",
     "no-redeclare": "off",
-    "import/export": "off"
+    "import/export": "off",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error"
   }
 }
